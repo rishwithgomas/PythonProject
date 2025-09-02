@@ -4,7 +4,7 @@ scale = input('Enter scale factor "C"/"F"/"K" : ') .strip() .upper()
 celsius_to_fahrenheit = ((temparature * 9) / 5) + 32
 celsius_to_kelvin = celsius_to_fahrenheit + 273.15
 fahrenheit_to_celsius = (temparature - 32) * 5/9
-fahrenheit_to_kelvin = (temparature - 32) * 5/9 - 273.15
+fahrenheit_to_kelvin = (temparature - 32) * 5/9 + 273.15
 kelvin_to_celsius = (temparature  - 273.15)
 kelvin_to_fahrenheit = (temparature - 32) * 9/5 - 273.15
 
